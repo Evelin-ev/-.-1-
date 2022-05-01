@@ -14,7 +14,7 @@ if(number > 0)
         Console.Write(i);
     if (i < temp)
     {
-        Console.Write(" , ");
+        Console.Write(",");
     }
     }
     }
@@ -23,3 +23,5 @@ else
 {
     Console.WriteLine("Введено некоректное число!");
 }
+
+Console.WriteLine(".");
