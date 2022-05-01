@@ -7,11 +7,10 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-if(number1 > number2)
-{
-    Console.WriteLine("первое число большее, второе - меньшее");
-}
-else
-{
-    Console.WriteLine("второе число большее, первое - меньшее");
-}
+int max = number1;
+
+if(number2 > number1) max = number2;
+
+Console.Write("большее число = ");
+Console.WriteLine(max);
+
